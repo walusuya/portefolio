@@ -1,0 +1,120 @@
+body{
+    margin: 0%;
+}
+
+
+.body{
+    max-width: 1180px;
+    margin: auto;
+    padding: auto;
+    background: gainsboro;
+    border: solid 5px gainsboro;
+    border-radius: 10px;   
+}
+
+
+
+.header{
+    text-align: center;
+    padding: 30px;
+    background: grey;
+    border-radius: 10px;
+}
+ 
+.header nav a{
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-decoration: none;
+    color: #fff;
+    width: 200px;
+    background-color: rgba(240, 240, 240,0.1);
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 15px;
+    height: 10;
+    font-family: "Berlin Sans FB",'tymes new roman', serif;
+}
+
+.header nav a:hover{
+    background-color: rgba(240, 240, 240,0.2);
+}
+h1{
+    margin-top: 0;
+    text-align: left;
+    padding: 200px;
+    background: url("noella.jpg");
+    background-repeat: no-repeat;
+    background-position: center -250px;  
+    background-size: cover;
+    border-radius: 10px;
+    color: aliceblue;
+    font-family: "Berlin Sans FB", "Bauhaus 93";
+}
+.contenaire{
+    display: flex;
+    padding: 50px 0;
+}
+.contenaire .identites{
+
+}
+
+.contenaire div{
+    width: 33.3%;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+.contenaire .h2{
+    text-align: center;
+    font-family: "Bauhaus 93";
+    font-weight: normal;
+   
+}
+
+.contenaire .identites .matricule{
+    text-align: center;
+    font-weight: bold;
+}
+.contenaire .presentation{
+    text-align: justify;
+    margin: 0 15px;
+    line-height: 25px;
+    font-family: Leelawadee;
+}
+.contenaire .competences .webmaster{
+    text-align: center;
+    font-weight: bold;
+}
+.avantfooter{
+    height: 50px;
+    background-color:gainsboro;
+}
+
+.footer 
+{
+    display: flex;
+    background-color: grey;
+    height: 80px;
+    border-radius: 10px;
+
+}
+.footer img
+{
+
+    height: 40px;
+    padding-left: 30%;
+    padding-top: 25px;
+} 
+
+.footer address
+{
+    padding-left : 20px;
+    margin-top: 25px;
+    font-weight: bold;
+    padding-top: 18px;
+    color: rgb(178, 184, 190);
+}
